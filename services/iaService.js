@@ -14,7 +14,7 @@ const gerarCorDoEsmalte = async (nome) => {
 
 const enviarPromptParaIA = async (prompt) => {
   const resposta = await axios.post(
-    "https://api.openai.com/v1/chat/completions",
+    "https://api.electronhub.top/v1/chat/completions",
     {
       model: "gpt-3.5-turbo",
       messages: [{ role: "user", content: prompt }],
