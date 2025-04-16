@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const gerarNomeDoEsmalte = async (hex) => {
-  const prompt = `Dê um nome criativo de esmalte para a cor hexadecimal ${hex}. Seja estiloso, moderno e divertido.`;
+  const prompt = `Dê um nome criativo de esmalte para a cor hexadecimal ${hex}. Responda em português, Seja estiloso, moderno e divertido.`;
   const resposta = await enviarPromptParaIA(prompt);
   return resposta;
 };
