@@ -2,7 +2,7 @@
   "name": "esmalte-api",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "packageManager": "pnpm@10.8.1",
   "dependencies": {
